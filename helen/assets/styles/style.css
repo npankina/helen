@@ -1,0 +1,462 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 17px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 33px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;;
+}
+
+.first {
+    height: 1170px;
+    background-color: #535353;
+}
+
+.logo {
+    margin: 50px;
+}
+
+.avatar {
+    margin: 0;
+
+}
+
+.second {
+    height: 1008px;
+    width: 100%;
+    background-color: #545767;
+}
+
+.third {
+    height: 988px;
+    width: 100%;
+    background-color: #252525;
+}
+
+.slider-right_side {
+    color: #333333;
+    position: fixed;
+    right: 20px;
+    top: 400px;
+}
+
+li:hover {
+    color: #efefef;
+}
+
+.logo {
+    border-radius: 80px;
+    border: 5px solid #efefef;
+    width: 150px;
+    height: 150px;
+}
+
+.socials {
+    float: right;
+    margin-right: 45px;
+    margin-top: 55px;
+}
+
+.socials span {
+    padding: 5px;
+    margin: 5px;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.about-helen, .about-title {
+    color: #efefef;
+}
+
+.video {
+    padding-top: 200px;
+}
+
+
+.connect {
+    color: #efefef;
+    text-align: center;
+}
+
+.container-connect {
+   padding-top: 75px;
+}
+
+
+h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #efefef;
+    font-family: "Roboto Condensed", sans-serif;;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: #efefef;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #FCC772;
+    font-family: "Roboto Condensed", sans-serif;;
+}
+
+a {
+    text-decoration: none;
+    color: #efefef;
+}
+
+a:hover  {
+    text-decoration: none;
+    color: #FCC772;
+}
+
+.contacts {
+   font-weight: bold;
+   padding-left: 25px;
+}
+
+.good-1 {
+    background-color: #344035;
+    height: 380px;
+}
+
+.bol {
+    font-weight: bold;
+    color: #FCC772;
+    font-size: 25px;
+}
+
+.good-2 {
+    background-color: #535353;
+    height: 350px;
+}
+
+.good-3 {
+    background-color: #545767;
+    height: 600px;
+}
+
+.payment {
+    height: 300px;
+    background-color: #252525;
+    padding-top: 20px;
+}
+
+.email {
+    /* padding-left: ; */
+}
+
+.subheader {
+    font-weight: bold;
+    font-size: 25px;
+    color: #efefef;
+    color: #FCC772;
+    font-family: "Roboto Condensed", sans-serif;;
+}
+
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+
+    .first {
+        height: 1300px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .first {
+        height: 1400px;
+    }
+
+    .second {
+        height: 900px;
+    }
+
+    .container-connect {
+        padding-top: 40px;
+    }
+
+    .good-1 {
+        height: 430px;
+    }
+    .good-2 {
+        height: 320px;
+    } 
+    .good-3 {
+        height: 690px;
+    } 
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+    .first {
+        height: 1400px;
+    }
+    .logo {
+        border-radius: 80px;
+        border: 5px solid #efefef;
+        width: 90px;
+        height: 90px;
+    }
+    .socials {
+        margin-right: 30px;
+        margin-top: 61px;
+    }
+    .socials img {
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+    }
+
+}
+
+
+@media (max-width: 575px) and (min-width: 400px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    .first {
+        height: 1750px;
+    }
+    .logo {
+        border-radius: 80px;
+        border: 3px solid #efefef;
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+    .fb {
+        display: none;
+    }
+    .socials {
+        margin-right: 5px;
+        margin-top: 15px;
+    }
+    .socials img {
+        width: 20px;
+        height: 20px;
+        margin: 2px;
+    }
+    .avatar {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    
+    .subheader {
+        font-size: 20px;
+    }
+
+    .contacts {
+        font-size: 20px;
+    }
+
+    .second {
+        height: 580px;
+    }
+
+    .video {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .container-connect {
+        padding-top: 35px;
+    }
+
+    .good-1 {
+        height: 870px;
+    }
+
+    .good-2 {
+        height: 450px;
+    }
+
+    .good-3 {
+        height: 1500px;
+    }
+
+    .payment {
+        height: 400px;
+        font-size: 16px;
+    }
+
+    .subheader {
+        font-size: 17px;
+    }
+
+    .contacts {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 399px) and (min-width: 375px){
+    .logo {
+        border-radius: 80px;
+        border: 3px solid #efefef;
+        width: 70px;
+        height: 70px;
+        margin: 8px;
+        margin-bottom: 10px;
+    }
+    .socials {
+        margin-right: 2px;
+        margin-top: 5px;
+    }
+    .socials img {
+        width: 16px;
+        height: 16px;
+        margin: 2px;
+    }
+    .fb {
+        display: none;
+    }
+    .avatar {
+        display: none;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .first {
+        height: 1360px;
+    }
+    .video {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .second {
+        height: 550px;
+    }
+    .container-connect {
+        padding-top: 25px;
+        height: 55px;
+    }
+    .good-1 {
+        height: 700px;
+    }
+
+    .good-2 {
+        height: 480px;
+    }
+
+    .good-3 {
+        height: 1230px;
+    }
+
+    .payment {
+        height: 370px;
+        font-size: 16px;
+    }
+
+   .contacts {
+       font-size: 20px;
+       margin: 0;
+       padding: 0;
+   }
+
+   .email {
+       padding-left: 30px;
+   }
+   .contacts-footer {
+       display: none;
+   }
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+    .logo {
+        border-radius: 80px;
+        border: 3px solid #efefef;
+        width: 70px;
+        height: 70px;
+        margin: 8px;
+        margin-bottom: 10px;
+    }
+    .socials {
+        margin-right: 2px;
+        margin-top: 5px;
+    }
+    .socials img {
+        width: 16px;
+        height: 16px;
+        margin: 2px;
+    }
+    .fb {
+        display: none;
+    }
+    .avatar {
+        display: none;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .first {
+        height: 1650px;
+    }
+    .contacts {
+        font-size: 20px;
+
+    }
+    .video {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .second {
+        height: 550px;
+    }
+    .container-connect {
+        padding-top: 25px;
+        height: 55px;
+    }
+    .good-1 {
+        height: 820px;
+    }
+
+    .good-2 {
+        height: 420px;
+    }
+
+    .good-3 {
+        height: 1380px;
+    }
+
+    .payment {
+        height: 400px;
+        font-size: 16px;
+    }
+
+    .subheader {
+        display: none;
+    }
+   .contacts-footer, email {
+       display: none;
+   }
+}
+
